@@ -5,6 +5,7 @@
     <classes>
       <class name="com.FTAAutomationFinally.testscript.PartnerRequest">
         <methods>
+          <include name="PartnerReq"/>
           <include name="logout"/>
           <include name="PartnerReqThree"/>
           <include name="PartnerReqTwo"/>

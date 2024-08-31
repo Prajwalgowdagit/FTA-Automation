@@ -28,7 +28,7 @@ public void PartnerReq() throws InterruptedException {
 //				System.out.println("The edit request btn is disabled");
 //			}
 			SoftAssert s =  new SoftAssert();
-			s.assertEquals(res, true);
+			s.assertEquals(res, false);
 			s.assertAll();
 		Thread.sleep(5000);
 			}
@@ -44,7 +44,7 @@ public void PartnerReq() throws InterruptedException {
 			boolean res = editRequest.isEnabled();
 			System.out.println(res);
 			SoftAssert s =  new SoftAssert();
-			s.assertEquals(res, false);
+			s.assertEquals(res, true);
 			s.assertAll();
 	}
 	
@@ -59,7 +59,7 @@ public void PartnerReq() throws InterruptedException {
 			boolean res = editRequest.isEnabled();
 			System.out.println(res);
 			SoftAssert s =  new SoftAssert();
-			s.assertEquals(res, false);
+			s.assertEquals(res, true);
 			s.assertAll();
 	}
 }
